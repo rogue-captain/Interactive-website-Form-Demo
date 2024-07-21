@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+
+    <title> Survey Site Certification Project </title>
+
+<link rel="stylesheet" href="styles.css">
+
+<script></script>
+
+  </head>
+
+  
+
+  <body>
+    <header>
+      <h1 id="title"> Survey Site Certification Form </h1>
+    </header>
+
+    <main>
+      <p id="description"> This is a demo Survery form   Site as in order for Sully to earn a responsive web design certification through free code camp.    
+      </p>
+      <br>
+
+      <form id="survey-form" onsubmit=""> 
+
+        <label id="name-label" for="name"> Name: </label>
+        <input style="width: 250px;" id="name" name="name" type="text" placeholder="please enter your name" required> 
+        <br><br>
+
+        <label id="email-label" for="email"> E-mail: </label>
+        <input style="width: 245px;" id="email" name="email" type="email" placeholder="please enter your email address" required>
+        <br><br>
+
+        <label id="number-label" for="age"> Age: (optional) </label>
+
+        <input style="width: 200px;" id="age" name="age" type="number" min="1" max="100" placeholder="please enter your age">
+        <br><br>
+
+        <label id="dropdown-label" for="dropdown"> What option is your current role? </label> 
+        <br><br>
+        <select id="dropdown" name="role">
+
+          <br><br>
+
+          <option value="Full Time Student"> Full Time Student </option>
+          <option value="Part Time Student"> Part Time Student </option>
+          <option value="Employed Full Time"> Employed Full Time</option>
+          <option value="Employed Part Time"> Employed Part Time </option>
+          <option value="Full Time Student and Employment"> Full Time Student and Employment </option>
+
+          </select>
+
+          <br><br>
+
+        <fieldset>
+          <legend> What is your preferred drug? </legend>
+
+          <br>
+
+          <label id="marijuana-label" for="drug-marijuana">
+          <input id="drug-marijuana" name="drugChoice" type="radio" value="marijuana"> Marijuana
+          </label>
+          <br>
+
+          <label id="cocaine-label" for="drug-cocaine">
+          <input id="drug-cocaine" name="drugChoice" type="radio" value="cocaine"> Cocaine
+          </label>
+          <br>
+
+          <label id="alcohol-label" for="drug-alcohol">
+          <input id="drug-alcohol" name="drugChoice" type="radio" value="alcohol"> Alcohol
+          </label>
+          <br>
+
+          <label id="psylocibine-label" for="drug-psilocybin"> 
+          <input id="drug-psilocybin" name="drugChoice" type="radio" value="psilocybin"> Psilocybin
+          </label>
+          <br>
+
+          <label id="percocet-label" for="drug-percocet">
+          <input id="drug-percocet" name="drugChoice" type="radio" value="percocet"> Percocet
+          </label>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+          <legend> Hobbies or Skills acquired </legend>
+
+          <label>
+          <input id="ProgrammingCB" type="checkbox" value="Programming"> Programming
+          </label>
+
+          <label>
+          <input id="BoatHandlingCB" type="checkbox" value="Boat Handling"> Boat Handling
+          </label>
+
+          <label>
+          <input id="WeldingCB" type="checkbox" value="Welding"> Welding
+          </label>
+
+          <label> 
+          <input id="AutoMechanicCB" type="checkbox" value="Auto Mechanic"> Auto Mechanic
+          </label>
+
+          <label id="BoxingCB-label" for="BoxingCB">
+          <input id="BoxingCB" type="checkbox" value="Boxing"> Boxing
+          </label>
+
+        </fieldset>
+
+        <br><br>
+
+        <button type="submit"> SUBMIT </button>
+
+      </form>
+    </main>
+
+  </body>
+</html>
